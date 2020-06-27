@@ -9,3 +9,5 @@ LED_UNDERGLOW_ENABLE = no   # LED underglow (Enable WS2812 RGB underlight.)
 LED_ANIMATIONS = yes        # LED animations
 IOS_DEVICE_ENABLE = no      # connect to IOS device (iPad,iPhone)
 
+SPLIT_KEYBOARD = yes        # これを書いているとダイオードの向きを一応変えられる
+

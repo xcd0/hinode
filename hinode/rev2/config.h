@@ -30,8 +30,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define DESCRIPTION     A split handwired keyboard
 
 /* COL2ROW, ROW2COL*/
-#define DIODE_DIRECTION COL2ROW
-//#define DIODE_DIRECTION ROW2COL
+//#define DIODE_DIRECTION COL2ROW
+#define DIODE_DIRECTION ROW2COL
 
 /* key matrix size */
 #define MATRIX_ROWS 10
