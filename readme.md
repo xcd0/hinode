@@ -14,8 +14,18 @@
 
 ## ファームウェアのビルド方法
 
-[https://github.com/qmk/qmk_firmware.git](https://github.com/qmk/qmk_firmware.git)  
+1. [https://github.com/qmk/qmk_firmware.git](https://github.com/qmk/qmk_firmware.git)  
 をクローンしたディレクトリと同じ場所にこのリポジトリをクローンする。
 
+2. `./build_hinode.sh` を実行する
+
+	./
+	├── qmk_firmware          クローンしてきたqmk_firmware
+	│  └── keyboards         ここにhinodeがコピーされる
+	└── hinode
+		├── hinode            ファームウェア本体
+		└── readme.md         このreadme.md
+
+3. このディレクトリにビルドしたファームウェアが保存される。
 
 
