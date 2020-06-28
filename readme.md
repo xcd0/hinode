@@ -5,6 +5,8 @@
 
 ![](https://i.gyazo.com/c823ad2e87fbc44491a4d92f5b71d579.png)
 
+![](https://gyazo.com/4acc701631147c0befde7be968e5adf8)
+
 [需要あるかわかりませんがstlファイルも置いています。](./hinode.stl)
 
 Fusion360で作成しています。  
