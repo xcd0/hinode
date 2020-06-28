@@ -127,7 +127,7 @@
 #define JP_UP   KC_UP
 #define JP_RGHT KC_RGHT
 #define JP_BSPC KC_BSPC
-#define JP_DEL  KC_EQL
+#define JP_DEL  KC_DEL
 #define JP_ENT  KC_ENT
 #define JP_SPC  KC_SPC
 #define JP_HOME KC_HOME

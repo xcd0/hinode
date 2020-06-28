@@ -77,6 +77,14 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
       }
       return false;
       break;
+    case SYMBOL:
+      if (record->event.pressed) {
+        layer_on(_SYMBOL);
+      } else {
+        layer_off(_SYMBOL);
+      }
+      return false;
+      break;
     case LEFT:
       if (record->event.pressed) {
           //not sure how to have keyboard check mode and set it to a variable, so my work around
