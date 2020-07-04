@@ -57,7 +57,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * |------+------+------+------+------+------+------+------|  |------+------+------+------+------+------+------+-------|
    * | HOME |      |  !   |  ?   |  #   |  $   |  %   |      |  |      |      |  @   |  ^   |  ,   |      |      |  END  |
    * `--------------------+------+------+------+------+------|  |------+------+------+------+------+---------------------'
-   *                      | EISU | Ctrl |Space |Shift | LEFT |  |RIGHT | BkSp |Enter |Delete| KANA |
+   *                      |      | Ctrl |Space |Shift | LEFT |  |RIGHT | BkSp |Enter |Delete|      |
    *                      `----------------------------------'  `----------------------------------'
    */
 
@@ -67,7 +67,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       JP_LGUI, JP_TAB,  JP_TILD, JP_UNDS, JP_DQT,  JP_QUOT, JP_GRV,  _______, /**/ _______, JP_AMPR, JP_LPRN, JP_LT,   JP_LCBR, JP_LBRC, _______,  KC_BSPC, \
       JP_INS,  _______, JP_PLUS, JP_MINS, JP_ASTR, JP_EQL,  JP_COLN, _______, /**/ _______, JP_PIPE, JP_RPRN, JP_GT,   JP_RCBR, JP_RBRC, _______,  KC_ENT,  \
       JP_HOME, _______, JP_EXLM, JP_QUES, JP_HASH, JP_DLR,  JP_PERC, _______, /**/ _______, _______, JP_AT,   JP_CIRC, JP_COMM, _______, _______,  JP_END,  \
-                                 EISU,    JP_LCTL, JP_SPC,  JP_LSFT, LEFT,    /**/ RIGHT,   JP_BSPC, JP_ENT,  JP_DEL,  KANA                                 \
+                                 _______, JP_LCTL, JP_SPC,  JP_LSFT, LEFT,    /**/ RIGHT,   JP_BSPC, JP_ENT,  JP_DEL,  _______                              \
       ),
 
   /* LEFT
@@ -80,7 +80,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * |------+------+------+------+------+------+------+------|  |------+------+------+------+------+-------+-------+-------|
    * |      |      |      |      |      |      |Ystrp |Reset |  |      |      |      |      |      |       |       |       |
    * `--------------------+------+------+------+------+------|  |------+------+------+------+------+-----------------------'
-   *                      |      | Ctrl |Space |Shift |      |  |      | BkSp |Enter |Delete|      |
+   *                      |      | Ctrl |Space |Shift |      |  |Adjust| BkSp |Enter |Delete|      |
    *                      `----------------------------------'  `----------------------------------'
    */
 
@@ -89,7 +89,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       _______, _______, _______, _______, _______, _______, _______, _______, /**/ _______, _______, _______, _______, _______, _______, _______, _______, \
       _______, _______, _______, _______, _______, _______, QWERTY,  EEP_RST, /**/ _______, JP_LEFT, JP_DOWN, JP_UP,   JP_RGHT, _______, _______, _______, \
       _______, _______, _______, _______, _______, _______, YSTRP,   RESET,   /**/ _______, _______, _______, _______, _______, _______, _______, _______, \
-                                 _______, JP_LCTL, JP_SPC,  JP_LSFT, _______, /**/ _______, _______, _______, _______, _______                             \
+                                 _______, JP_LCTL, JP_SPC,  JP_LSFT, _______, /**/ ADJUST,  JP_BSPC, JP_ENT,  JP_DEL,  KANA                                \
       ),
 
   /* Right
@@ -102,7 +102,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * |------+------+------+------+------+------+------+------|  |------+------+------+------+------+-------+-------+-------|
    * |      |      |      |      |      |      |Ystrp |Reset |  |      |      |      |      |      |       |       |       |
    * `--------------------+------+------+------+------+------|  |------+------+------+------+------+-----------------------'
-   *                      |      | Ctrl |Space |Shift |      |  |      | BkSp |Enter |Delete|      |
+   *                      |      | Ctrl |Space |Shift |Adjust|  |      | BkSp |Enter |Delete|      |
    *                      `----------------------------------'  `----------------------------------'
    */
 
@@ -111,7 +111,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       _______, _______, _______, _______, _______, _______, _______, _______, /**/ _______, _______, JP_BTN1, JP_BTN3, JP_BTN2, JP_WH_U, _______, _______, \
       _______, _______, _______, _______, _______, _______, QWERTY,  EEP_RST, /**/ _______, JP_MS_L, JP_MS_D, JP_MS_U, JP_MS_R, JP_WH_D, _______, _______, \
       _______, _______, _______, _______, _______, _______, YSTRP,   RESET,   /**/ _______, JP_LEFT, JP_DOWN, JP_UP,   JP_RGHT, _______, _______, _______, \
-                                 _______, JP_LCTL, JP_SPC,  JP_LSFT, _______, /**/ _______, _______, _______, _______, _______                             \
+                                 _______, JP_LCTL, JP_SPC,  JP_LSFT, ADJUST,  /**/ _______, _______, _______, _______, _______                             \
       ),
 
   /* Adjust
